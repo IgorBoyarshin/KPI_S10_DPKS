@@ -1,12 +1,10 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-class Calculator
-{
-    public:
-        int Add (double, double);
-        int Sub (double, double);
-        int Mul (double, double);
+struct Calculator {
+    int add(double, double);
+    int sub(double, double);
+    int mul(double, double);
 };
 
-#endif//CALCULATOR_H
+#endif //CALCULATOR_H
